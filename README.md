@@ -1,2 +1,2 @@
-# Retail_Sector_BusinessIntelligence_Project
-TABLEAU
+# Retail Sector Business Intelligence Project
+**Using TABLEAU**
