@@ -1,10 +1,10 @@
 # Retail Sector Business Intelligence Project
 **Using TABLEAU**
 
-## Executive Summary
+## 1.Executive Summary
 Business Challenge The organization operates with disparate data sources across sales, supply chain, and customer operations, preventing a unified view of business performance. The current reporting infrastructure lacks the capability to provide real-time insights, target tracking, and cross-departmental analytics needed for strategic decision-making.
 
-## Objective
+## 2.Objective
 Deliver a comprehensive business intelligence solution comprising interactive dashboards and analytical frameworks that transform raw operational data into actionable insights. Enable data-driven decision making across all organizational levels while demonstrating measurable business value through improved performance tracking and operational efficiency.
 
 ## Project Scope & Dataset
@@ -17,7 +17,7 @@ You are provided with a comprehensive dataset spanning 6 years of business opera
 - Geographic Analysis: Multi-region and multi-country operations
 - Temporal Analysis: Complete date hierarchy with fiscal year mapping
 
-## Core Analytical Tasks
+## 3.Core Analytical Tasks
 You are required to complete the following analytical workstreams:
 
 #### 3.1. Data Insights & Descriptive Analysis
@@ -38,7 +38,7 @@ You are required to complete the following analytical workstreams:
 - Channel Performance: Evaluate effectiveness of different sales platforms and distribution channels
 - Geographic Expansion Analysis: Identify market penetration opportunities and regional performance gaps
 
-### Deliverables
+### 4.Deliverables
 #### Deliverable 1: Comprehensive Analytical Report (PDF)
 - A professional report presenting strategic insights and recommendations:
 - Executive Summary: High-level business performance overview and key recommendations for executive leadership
