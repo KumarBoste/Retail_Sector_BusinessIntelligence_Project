@@ -1,93 +1,162 @@
 # Retail Sector Business Intelligence Project
 **Using TABLEAU**
 
-## 1.Executive Summary
-Business Challenge The organization operates with disparate data sources across sales, supply chain, and customer operations, preventing a unified view of business performance. The current reporting infrastructure lacks the capability to provide real-time insights, target tracking, and cross-departmental analytics needed for strategic decision-making.
+## Objective of the Project
+The primary objective of this project is to design an end-to-end Business Intelligence (BI) solution for the retail sector that enables management to:
+- Monitor sales, profit, and target achievement
+- Analyze customer segments and geographic performance
+- Evaluate supply chain efficiency and delivery performance
+- Identify top-performing products, platforms, and markets
+- Support data-driven strategic decision-making
 
-## 2.Objective
-Deliver a comprehensive business intelligence solution comprising interactive dashboards and analytical frameworks that transform raw operational data into actionable insights. Enable data-driven decision making across all organizational levels while demonstrating measurable business value through improved performance tracking and operational efficiency.
+The project leverages interactive Tableau dashboards to convert raw transactional data into actionable business insights.
 
-## Project Scope & Dataset
-You are provided with a comprehensive dataset spanning 6 years of business operations (2018-2023) with 125,390+ transactional records across multiple business functions.
+## Problem Statement
+Retail businesses often face challenges such as:
+- Lack of centralized visibility across sales, customers, and supply chain
+- Difficulty tracking profitability by category, region, and platform
+- Inefficient delivery timelines and high shipping costs
+- Limited understanding of customer segments and buying behavior
+- Poor alignment between sales performance and business targets
 
-#### Key Data Dimensions:
-- Sales Operations: Revenue, costs, quantities, customer segments
-- Supply Chain: Shipping logistics, delivery performance, inventory movement
-- Performance Tracking: Sales targets vs actual performance
-- Geographic Analysis: Multi-region and multi-country operations
-- Temporal Analysis: Complete date hierarchy with fiscal year mapping
+This project addresses these issues by building a multi-dashboard BI model that provides a 360-degree view of retail performance.
 
-## DASHBOARD 
-![SALES DASHBOARD](https://github.com/KumarBoste/Retail_Sector_BusinessIntelligence_Project/blob/main/Dashboard/SALES%20DASHBOARD.png)
+## Business Questions Based on Visualized Insights
+#### Executive-Level Questions
+1. What is the total sales and profit performance?
+2. Are we achieving our sales targets?
+3. How efficient is our average delivery time?
 
-## 3.Core Analytical Tasks
-You are required to complete the following analytical workstreams:
+#### Sales & Product Questions
+1. Which product categories generate the highest sales?
+2. Who are the top 5 most profitable products?
+3. Which sales platforms contribute most to revenue?
 
-#### 3.1. Data Insights & Descriptive Analysis
-- Performance Benchmarking: Identify top-performing products, customers, and regions by revenue and profitability
-- Target Achievement Analysis: Track sales performance against monthly and quarterly targets across dimensions
-- Supply Chain Optimization: Analyze delivery performance, shipping costs, and inventory movement patterns
-- Customer Segmentation: Profile customer segments by profitability, purchase patterns, and geographic distribution
+#### Customer & Market Questions
+1. Which customer segment drives maximum sales?
+2. How does sales vary across regions and countries?
+3. Which markets have growth potential?
 
-3.2. Advanced Analytics & Business Intelligence
-- Profitability Analysis: Calculate and analyze profit margins across products, customers, and regions
-- Trend Analysis: Identify sales patterns, seasonal trends, and growth trajectories
-- Performance Forecasting: Develop models to predict sales performance and inventory requirements
-- Root Cause Analysis: Investigate performance variances and operational bottlenecks
+#### Supply Chain Questions
+1. Which warehouses are most efficient?
+2. Where do we face delivery delays?
+3. How does shipping cost relate to delivery time?
 
-#### 3.3. Cross-Functional Analytics
-- Sales & Operations Alignment: Analyze relationships between sales performance and supply chain efficiency
-- Customer Lifetime Value: Calculate and segment customers by long-term value potential
-- Channel Performance: Evaluate effectiveness of different sales platforms and distribution channels
-- Geographic Expansion Analysis: Identify market penetration opportunities and regional performance gaps
+## Statistical Analysis
+The project applies the following analytical techniques:
 
-### 4.Deliverables
-#### Deliverable 1: Comprehensive Analytical Report (PDF)
-- A professional report presenting strategic insights and recommendations:
-- Executive Summary: High-level business performance overview and key recommendations for executive leadership
-- Methodology: Description of analytical approaches, data modeling techniques, and validation methods
-- Key Findings: Data-backed insights from each business function analysis
-- Strategic Recommendations: 3-5 prioritized, actionable recommendations for business optimization
+#### Descriptive Statistics
+- Total Sales, Profit, Quantity Shipped
+- Average Delivery Days
+- Percentage Target Achievement
 
-#### Deliverable 2: Interactive Executive Dashboard Suite (Tableau/Power BI)
-- A multi-view dashboard ecosystem:
-- Executive View: C-level overview focusing on financial performance, target achievement, and business health indicators
-- Sales Operations View: Department-level analytics for sales performance, customer segmentation, and target tracking
-- Supply Chain View: Operational metrics for logistics efficiency, delivery performance, and cost optimization
-- Customer Intelligence View: Customer analytics, segmentation, and lifetime value analysis
+#### Comparative Analysis
+- Sales by Year
+- Sales by Country and Market
+- Segment-wise Revenue Comparison
 
-#### Deliverable 3: Final Presentation (10-12 Minutes)
-A concise executive presentation summarizing the analytical approach, key business insights, and strategic recommendations for business optimization.
+#### Distribution & Trend Analysis
+- Product category contribution using treemaps
+- Year-over-year sales stability
+- Platform-wise revenue distribution
 
-### Technical Stack & Tools
-Component Recommended Tools
+#### Operational Metrics
+- Delivered vs In-Transit vs Delayed shipments
+- Warehouse shipment volumes
+- Shipping cost vs delivery duration relationship
 
-- Data Analysis & Processing Python (Pandas, NumPy), SQL
-- Data Visualization & Dashboarding Tableau, Power BI
-- Data Modeling Star Schema Design, Relationship Modeling
-- Advanced Analytics Statistical Analysis, Trend Analysis, Forecasting
-- Version Control Git, GitHub/GitLab
-- Documentation Markdown, Business Reporting Standards
+These analyses help identify patterns, outliers, and inefficiencies.
 
-## Success Criteria
-Your solution will be evaluated based on:
+## Data Visualization and Key Insights
+### Dashboard 1: Executive Overview
+#### Visuals Used:
+- KPI Cards
+- Map Chart
+- Bar Chart
 
-- Business Impact: Demonstrable value through improved decision-making and operational efficiency
-- Analytical Depth: Robustness of data models, calculations, and business logic implementation
-- User Adoption: Intuitive dashboard design supporting self-service analytics across user personas
-- Strategic Alignment: Relevance of insights to organizational objectives and decision-making processes
-- Technical Excellence: Data model optimization, calculation accuracy, and performance efficiency
+#### Insights:
+- Total sales reached 906K USD with profit of 295M
+- Target achievement is only 41%, indicating underperformance
+- India dominates sales, contributing the majority share
+- Sales remain relatively stable across years, with no strong growth trend
 
-### Getting Started
-- Business Context Review: Familiarize yourself with the business challenges and data landscape
-- Data Exploration: Conduct initial data analysis to understand data patterns, relationships, and quality
-- Solution Architecture: Design the data model and dashboard structure based on business requirements
-- Iterative Development: Build dashboards following an agile methodology with regular validation checkpoints
-- Stakeholder Validation: Conduct user acceptance testing and incorporate feedback for refinement
+![Executive Overview]()
 
-### Note : Submission Instructions
-- Fork the original repository.
-- Complete all assessment tasks outlined in this README.
-- Ensure all deliverables are included in your forked repository.
-- Update the README with any additional instructions or notes for reviewers.
-- Submit the link to your forked repository for assessment.
+### Dashboard 2: Sales Analytics
+#### Visuals Used:
+- Treemap
+- Bar Chart
+- Pie Chart
+
+#### Insights:
+- Mouse and Keyboard are the highest revenue categories
+- Gaming Wireless products generate the highest profit
+- Retail Store and Corporate Portal are top-performing platforms
+- Monitor category shows lowest contribution, indicating low demand
+
+![Sales Analytics]()
+
+## Dashboard 3: Supply Chain Dashboard
+#### Visuals Used:
+- Bar Chart
+- Table
+- Scatter Plot
+
+#### Insights:
+- Delhi North warehouse ships the highest quantity
+- Average delivery time is 6 days
+- Delayed shipments are consistent across regions
+- Higher delivery days correlate with increased shipping cost
+- Certain markets show cost inefficiency
+
+![Supply Chain DAshboard]()
+
+## Dashboard 4: Customer Insights
+#### Visuals Used:
+- Bar Chart
+- Map
+- Heatmap
+
+#### Insights:
+- Educational and Corporate segments generate the highest revenue
+- E-commerce and Retail Chains underperform
+- Urban markets like Bangalore, Delhi, Mumbai show high category demand
+- Some regions show low product diversity, indicating expansion opportunities
+
+![Customer Insights]()
+## Business Recommendations (Best Solutions)
+### 1. Improve Target Achievement
+- Reassess sales targets region-wise
+- Focus marketing on high-performing segments (Educational & Corporate)
+- Introduce performance-based incentives for low-performing regions
+
+### 2. Optimize Product Portfolio
+- Increase inventory for high-demand categories (Mouse, Keyboard)
+- Redesign or bundle low-performing products (Monitors)
+- Promote top profitable products across all platforms
+
+### 3. Strengthen Supply Chain Efficiency
+- Investigate root causes of consistent delivery delays
+- Optimize routes for regions with high shipping cost
+- Implement SLA-based performance tracking for warehouses
+
+### 4. Customer Segmentation Strategy
+- Launch targeted campaigns for Educational & Corporate clients
+- Improve offerings for E-commerce customers to increase penetration
+- Use regional demand patterns for localized promotions
+
+### 5. Platform Optimization
+- Strengthen Retail Store and Corporate Portal presence
+- Improve digital experience on Amazon & Flipkart to boost conversions
+
+## Conclusion
+The Retail Sector Business Intelligence Model successfully transforms complex retail data into meaningful insights using Tableau dashboards.
+
+The project enables stakeholders to:
+- Monitor business performance in real time
+- Identify revenue drivers and operational bottlenecks
+- Optimize supply chain and customer strategies
+
+Make informed, data-driven decisions
+
+Overall, this BI solution demonstrates how analytics and visualization can directly support business growth, efficiency, and profitability in the retail sector.
