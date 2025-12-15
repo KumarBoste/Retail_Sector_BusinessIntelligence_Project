@@ -123,7 +123,8 @@ These analyses help identify patterns, outliers, and inefficiencies.
 - Urban markets like Bangalore, Delhi, Mumbai show high category demand
 - Some regions show low product diversity, indicating expansion opportunities
 
-![Customer Insights]()
+![Customer Insights](https://github.com/KumarBoste/Retail_Sector_BusinessIntelligence_Project/blob/main/Tableau%20Dashboard/Customer%20Insights.png)
+
 ## Business Recommendations (Best Solutions)
 ### 1. Improve Target Achievement
 - Reassess sales targets region-wise
