@@ -80,7 +80,7 @@ These analyses help identify patterns, outliers, and inefficiencies.
 - India dominates sales, contributing the majority share
 - Sales remain relatively stable across years, with no strong growth trend
 
-![Executive Overview]()
+![Executive Overview](https://github.com/KumarBoste/Retail_Sector_BusinessIntelligence_Project/blob/main/Tableau%20Dashboard/Executive%20Overview.png)
 
 ### Dashboard 2: Sales Analytics
 #### Visuals Used:
