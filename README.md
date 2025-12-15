@@ -94,7 +94,7 @@ These analyses help identify patterns, outliers, and inefficiencies.
 - Retail Store and Corporate Portal are top-performing platforms
 - Monitor category shows lowest contribution, indicating low demand
 
-![Sales Analytics]()
+![Sales Analytics](https://github.com/KumarBoste/Retail_Sector_BusinessIntelligence_Project/blob/main/Tableau%20Dashboard/Sales%20Analytics.png)
 
 ## Dashboard 3: Supply Chain Dashboard
 #### Visuals Used:
