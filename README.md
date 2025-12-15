@@ -109,7 +109,7 @@ These analyses help identify patterns, outliers, and inefficiencies.
 - Higher delivery days correlate with increased shipping cost
 - Certain markets show cost inefficiency
 
-![Supply Chain DAshboard]()
+![Supply Chain DAshboard](https://github.com/KumarBoste/Retail_Sector_BusinessIntelligence_Project/blob/main/Tableau%20Dashboard/Supply%20Chain%20Dashboard.png)
 
 ## Dashboard 4: Customer Insights
 #### Visuals Used:
