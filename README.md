@@ -1,4 +1,6 @@
 # Retail Sector Business Intelligence Project
+![LOGO](https://github.com/KumarBoste/Retail_Sector_BusinessIntelligence_Project/blob/main/LOGO.png)
+
 
 ## Objective of the Project
 The primary objective of this project is to design an end-to-end Business Intelligence (BI) solution for the retail sector that enables management to:
