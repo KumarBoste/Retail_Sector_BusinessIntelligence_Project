@@ -1,5 +1,4 @@
 # Retail Sector Business Intelligence Project
-**Using TABLEAU**
 
 ## Objective of the Project
 The primary objective of this project is to design an end-to-end Business Intelligence (BI) solution for the retail sector that enables management to:
